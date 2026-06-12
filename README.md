@@ -1,16 +1,53 @@
-# React + Vite
+Appointments App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js application that allows users to create and manage appointments efficiently. Users can add appointments, mark important appointments as starred, and filter starred appointments for better organization.
 
-Currently, two official plugins are available:
+Features
+Add new appointments
+Select appointment date
+Mark appointments as starred
+Filter starred appointments
+Responsive user interface
+Component-based architecture
+Technologies Used
+React.js
+JavaScript (ES6+)
+HTML5
+CSS3
+Project Structure
+src
+│
+├── Components
+│   ├── Appointments
+│   └── AppointmentItem
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+Getting Started
+Clone the Repository
+git clone https://github.com/elizemartin/appointments-app.git
+Navigate to Project Directory
+cd appointments-app
+Install Dependencies
+npm install
+Start Development Server
+npm run dev
+Open in Browser
+http://localhost:5173
+Learning Outcomes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Through this project, I practiced:
 
-## React Compiler
+React Components
+State Management
+Event Handling
+Form Handling
+Conditional Rendering
+Component Reusability
+Author
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Elize Martin
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GitHub: https://github.com/elizemartin
